@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop</title>
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="32 x 32">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+<body>
+  <a name="banner"></a>
+    <div class="banner">
+    <div class="container-fluid">
+        <div class="navbar" id="header">
+            <a href="index.html" class="logo" style="float: left;"><img src="img/logo.png" alt=""></a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="index.html#booking">BOOKING</a></li>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="content">
+      <div class="container">
+          <div class="row">
+              <div class="col-4 desk">
+                  <h1>VISIT BALI</h1>
+                  <p> Jelajahi lebih banyak keindahan dari pulau bali </p>
+              </div>
+              <div class="col-8"></div>
+          </div>
+      </div> 
+  </div> -->
+  </div>
+
+    <a name="about"></a>
+    <div class="about">
+        <div class="row">
+            <div class="col-4">
+                <img class="imgabout" src="img/depan.avif">
+            </div>
+            <div class="col-8 aboutdesc">
+                <h1>Hello</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    Velit odio natus illo praesentium repudiandae porro expedita? Doloremque
+                    <br>
+                    odit corporis deleniti reprehenderit excepturi. Neque blanditiis fuga modi rerum quae ex itaque.
+                </p>
+                <a href="" ><button type="submit" class="btn btn-dark">About</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="counting spasi">
+        <div class="box">
+
+        </div>
+      </div>
+      
+      <div class="booking spasi">
+        <h3 class="jdsub">Booking Table</h3>
+        <a name="booking"></a>
+        <div class="row">
+          <div class="col-4">
+              <center>
+                <img src="img/order.avif" width="100%">
+                <div>silahkan order</div>
+              </center>
+          </div>
+          <div class="col-8">
+            <form method="POST" action="booking.php">
+              <div class="row">
+                <div class="col-6">
+                  <label class="form-label">Nama Lengkap</label>
+                  <input type="text" name="txNAMA" class="form-control" placeholder="isikan nama anda">
+                </div>
+                <div class="col-6">
+                  <label class="form-label">Telp</label>
+                  <input type="text" name="txTELP" class="form-control" placeholder="isikan no telepon">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <label class="form-label">Nomor Antrian</label>
+                  <input type="number" name="txNOMOR" class="form-control" placeholder="isikan pesanan anda">
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <label class="form-label">Jumlah Orang</label>
+                  <input type="number" name="txJUMLAH" class="form-control" placeholder="isikan jumlah orang anda ">
+                  </div>
+                  <div class="col-4">
+                    <label class="form-label">Tanggal Order</label>
+                  <input type="date" name="txTGLORDER" class="form-control" placeholder="isikan tanggal datang anda">
+                  </div>
+                  <div class="col-4">
+                    <label class="form-label">Jam Kedatangan</label>
+                  <input type="time" name="txJAM" class="form-control" placeholder="">
+                  </div>
+                </div>
+                <br>
+                <div class="row spasi">
+                  <div class="col-12">
+                    <center>
+                      <a href="#" type="button" class="btn btn-primary">ORDER</a>
+                  </center>
+                </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer spasi">
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="index.html#booking">Booking</a></li>
+            </ul>
+          </div>
+          <div class="col-4">Jam buka : <br> Pagi ~ Malam Jam 07.00 ~ 23.00</div>
+          <div class="col-4">Info Contact : <br> Instagram : ice_cream33 <br> Tiktok : ice_cream33 <br> WhatsApp : 088765421354</div>
+        </div>
+      </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/16f5f44246.js" crossorigin="anonymous"></script>
+</body>
+</html>
